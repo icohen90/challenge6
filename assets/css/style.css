@@ -7,9 +7,12 @@ h1{
     color: white;
     font-size: 3rem;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
+.gradiant{
+    background-image: linear-gradient(to right, #20c997 , #0dcaf0);
+}
 
  .teal{
     background-color: #20c997;
@@ -21,10 +24,6 @@ h1{
     background-color: #0dcaf0;
     color: white;
     text-align: center;
-}
-
-.user-city{
-    width: 78%;
 }
 
 .container{

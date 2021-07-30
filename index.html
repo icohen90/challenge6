@@ -12,27 +12,26 @@
     <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="">
         <h1><i class="bi bi-sun-fill"></i>  Weather Dashboard</h1>
     </header>
 
     <main class="row p-5">
         <div class="col-4">
-            <div class="card">
+            <div class="card shadow-sm">
                 <h2 class="card-header teal fs-1">Search for a City</h2>
-                <div class="input-group m-3" id="search-form">
+                <div class="input-group justify-content-center mt-5" id="search-form">
                     <input type="text" class="user-city" id="user-city" name="city">
-                    <button type="button" class="btn-outline-dark fs-4" id="user-city"><i class="bi bi-search"></i> Search</button>
+                    <button type="button" class="btn gradiant fs-4" id="user-city"><i class="bi bi-search"></i> Search</button>
                 </div>
-            </div>
-
-            <div class="card mt-5" id="recent-searches">
-                <h2 class="card-header teal fs-1">Recent Cities</h2>
+                <div class="card mt-5 shadow-sm" id="recent-searches">
+                    <h2 class="card-header teal fs-1">Recent Cities</h2>
+                </div>
             </div>
         </div>
 
         <div class="col-8 forecast">
-            <div class="card">
+            <div class="card shadow-sm">
                 <h2 class="card-header cyan fs-1">Today's Forecast</h2>
                 <div class="container">
                     <div class="row">
@@ -50,8 +49,15 @@
                         </div>
                     </div>
                 </div>
+            
+                <h2 class="card-header cyan fs-1">5-Day Forecast</h2>
+                <div class="container">
+
+                </div>
             </div>
-        </div>
+        
+            
+        
     </main>
     
 </body>
