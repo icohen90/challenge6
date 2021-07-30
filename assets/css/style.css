@@ -1,5 +1,6 @@
 body{
     font-family: 'MonteCarlo', cursive;
+    font-weight: bold;
 }
 
 h1{
@@ -26,8 +27,13 @@ h1{
     text-align: center;
 }
 
-.container{
-    text-align: center;
+.bg-1{
+    background-color: #0dcaf0;
+    color: white;
+}
+
+.hide{
+    display: none;
 }
 
 

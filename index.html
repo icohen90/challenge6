@@ -22,7 +22,7 @@
                 <h2 class="card-header teal fs-1">Search for a City</h2>
                 <div class="input-group justify-content-center mt-5" id="search-form">
                     <input type="text" class="user-city" id="user-city" name="city">
-                    <button type="button" class="btn gradiant fs-4" id="user-city"><i class="bi bi-search"></i> Search</button>
+                    <button type="button" class="btn gradiant fs-4 fw-bold m-2" id="user-city"><i class="bi bi-search"></i> Search</button>
                 </div>
                 <div class="card mt-5 shadow-sm" id="recent-searches">
                     <h2 class="card-header teal fs-1">Recent Cities</h2>
@@ -35,8 +35,8 @@
                 <h2 class="card-header cyan fs-1">Today's Forecast</h2>
                 <div class="container">
                     <div class="row">
-                        <h3 class="ml-2">
-                            <span class="fs-3" id="city-name">City Name</span>
+                        <h3 class="mt-3">
+                            <span class="fs-3 mt-5 fw-bold" id="city-name">City Name</span>
                             <img class="weather-icon" id="today-icon">
                         </h3>
                     </div>
@@ -51,13 +51,60 @@
                 </div>
             
                 <h2 class="card-header cyan fs-1">5-Day Forecast</h2>
-                <div class="container">
+                <div class="container mt-5 mb-5">
+                    <div class="row justify-content-center">
+                        <div class="col-2"><!--Day One-->
+                            <div class="card bg-1 p-2 fs-5 m-2">
+                                <p id="date-1">Date</p>
+                                <img class="weather-img" id="img-1">
+                                <p class="">High: <span id="temp-1"></span></p>
+                                <p class="">Low: <span id="wind-1"></span></p>
+                                <p class="">Humidity: <span id="humidity-1"></span></p>
+                            </div>
+                        </div>
 
+                        <div class="col-2"><!--Day Two-->
+                            <div class="card bg-1 p-2 fs-5 m-2">
+                                <p id="date-1">Date</p>
+                                <img class="weather-img" id="img-1">
+                                <p class="">High: <span id="temp-1"></span></p>
+                                <p class="">Low: <span id="wind-1"></span></p>
+                                <p class="">Humidity: <span id="humidity-1"></span></p>
+                            </div>
+                        </div>
+
+                        <div class="col-2"><!--Day Three-->
+                            <div class="card bg-1 p-2 fs-5 m-2">
+                                <p id="date-1">Date</p>
+                                <img class="weather-img" id="img-1">
+                                <p class="">High: <span id="temp-1"></span></p>
+                                <p class="">Low: <span id="wind-1"></span></p>
+                                <p class="">Humidity: <span id="humidity-1"></span></p>
+                            </div>
+                        </div>
+
+                        <div class="col-2"><!--Day Four-->
+                            <div class="card  bg-1 p-2 fs-5 m-2">
+                                <p id="date-1">Date</p>
+                                <img class="weather-img" id="img-1">
+                                <p class="">High: <span id="temp-1"></span></p>
+                                <p class="">Low: <span id="wind-1"></span></p>
+                                <p class="">Humidity: <span id="humidity-1"></span></p>
+                            </div>
+                        </div>
+
+                        <div class="col-2"><!--Day Five-->
+                            <div class="card bg-1 p-2 fs-5 m-2">
+                                <p id="date-1">Date</p>
+                                <img class="weather-img" id="img-1">
+                                <p class="">High: <span id="temp-1"></span></p>
+                                <p class="">Low: <span id="wind-1"></span></p>
+                                <p class="">Humidity: <span id="humidity-1"></span></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        
-            
-        
     </main>
     
 </body>
