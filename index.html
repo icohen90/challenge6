@@ -23,7 +23,6 @@
                 <div class="input-group justify-content-center mt-5" id="search-form">
                     <input type="text" class="user-input" id="user-input" name="city">
                     <button type="button" class="btn gradiant fs-4 fw-bold m-2" id="search-btn"><i class="bi bi-search"></i> Search</button>
-                    <button type="button" class="btn gradiant fs-4 fw-bold mt-2" id="clear-btn">Clear History</button>
                 </div>
                 <div class="card mt-5 shadow-sm" id="recent-searches">
                     <h2 class="card-header teal fs-1">Recent Cities</h2>
@@ -51,62 +50,64 @@
                         </div>
                     </div>
                 </div>
-            
-                <h2 class="card-header cyan fs-1 hide">5-Day Forecast</h2>
-                <div class="container mt-5 mb-5 hide">
+                
+                <div class="five-day-forecast hide">
+                <h2 class="card-header cyan fs-1">5-Day Forecast</h2>
+                <div class="container mt-5 mb-5">
                     <div class="row justify-content-center">
                         <div class="col-2"><!--Day One-->
                             <div class="card bg-1 p-2 fs-5 m-2">
-                                <p id="date-1">Date</p>
+                                <p id="date-1"></p>
                                 <img class="weather-img" id="img-1">
-                                <p class="">High: <span id="temp-1"></span></p>
-                                <p class="">Low: <span id="wind-1"></span></p>
-                                <p class="">Humidity: <span id="humidity-1"></span></p>
+                                <p class="">Temp:<span id="temp-1"></span></p>
+                                <p class="">Wind:<span id="wind-1"></span></p>
+                                <p class="">Humidity:<span id="humidity-1"></span></p>
                             </div>
                         </div>
 
                         <div class="col-2"><!--Day Two-->
                             <div class="card bg-1 p-2 fs-5 m-2">
-                                <p id="date-2">Date</p>
+                                <p id="date-2"></p>
                                 <img class="weather-img" id="img-2">
-                                <p class="">High: <span id="temp-2"></span></p>
-                                <p class="">Low: <span id="wind-2"></span></p>
-                                <p class="">Humidity: <span id="humidity-2"></span></p>
+                                <p class="">Temp:<span id="temp-2"></span></p>
+                                <p class="">Wind:<span id="wind-2"></span></p>
+                                <p class="">Humidity:<span id="humidity-2"></span></p>
                             </div>
                         </div>
 
                         <div class="col-2"><!--Day Three-->
                             <div class="card bg-1 p-2 fs-5 m-2">
-                                <p id="date-1">Date</p>
-                                <img class="weather-img" id="img-1">
-                                <p class="">High: <span id="temp-1"></span></p>
-                                <p class="">Low: <span id="wind-1"></span></p>
-                                <p class="">Humidity: <span id="humidity-1"></span></p>
+                                <p id="date-3"></p>
+                                <img class="weather-img" id="img-3">
+                                <p class="">Temp:<span id="temp-3"> </span></p>
+                                <p class="">Wind:<span id="wind-3"> </span></p>
+                                <p class="">Humidity:<span id="humidity-3"> </span></p>
                             </div>
                         </div>
 
                         <div class="col-2"><!--Day Four-->
                             <div class="card  bg-1 p-2 fs-5 m-2">
-                                <p id="date-1">Date</p>
-                                <img class="weather-img" id="img-1">
-                                <p class="">High: <span id="temp-1"></span></p>
-                                <p class="">Low: <span id="wind-1"></span></p>
-                                <p class="">Humidity: <span id="humidity-1"></span></p>
+                                <p id="date-4"></p>
+                                <img class="weather-img" id="img-4">
+                                <p class="">Temp:<span id="temp-4"></span></p>
+                                <p class="">Wind:<span id="wind-4"></span></p>
+                                <p class="">Humidity:<span id="humidity-4"></span></p>
                             </div>
                         </div>
 
                         <div class="col-2"><!--Day Five-->
                             <div class="card bg-1 p-2 fs-5 m-2">
-                                <p id="date-1">Date</p>
-                                <img class="weather-img" id="img-1">
-                                <p class="">High: <span id="temp-1"></span></p>
-                                <p class="">Low: <span id="wind-1"></span></p>
-                                <p class="">Humidity: <span id="humidity-1"></span></p>
+                                <p id="date-5"></p>
+                                <img class="weather-img" id="img-5">
+                                <p class="">Temp:<span id="temp-5"></span></p>
+                                <p class="">Wind:<span id="wind-5"></span></p>
+                                <p class="">Humidity:<span id="humidity-5"></span></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> 
     <script src="assets/js/script.js"> </script>
