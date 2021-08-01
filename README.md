@@ -1,2 +1,8 @@
 <h1 align="center">Weather Dashboard App</h1>
-<p font-size="28px">URL: </p>
+<p><b>URL: <b></p><a href="">
+
+  <p><b>Description: </b></p>
+  
+  <p><b>App features:</b></p>
+  
+  <p><b>Mock-Up of Website</b></p>
