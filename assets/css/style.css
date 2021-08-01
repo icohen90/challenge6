@@ -13,6 +13,7 @@ h1{
 
 .gradiant{
     background-image: linear-gradient(to right, #20c997 , #0dcaf0);
+    width: 300px;
 }
 
  .teal{
